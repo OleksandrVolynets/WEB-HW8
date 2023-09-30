@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hw8-part1"
+version = "0.1.0"
+description = ""
+authors = ["Oleksandr Volynets <108275803+OleksandrVolynets@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "hw8_part1"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mongoengine = "^0.27.0"
+pymongo = "^4.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
